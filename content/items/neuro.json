@@ -1,0 +1,10 @@
+{
+    "type": "material",
+    "name": "Neuro",
+    "description": "Neuro-sama material",
+    "color": "ffc0cb",
+    "tier": 2,
+    "hardness": 2,
+    "cost": 1f,
+    "alwaysUnlocked": false
+}

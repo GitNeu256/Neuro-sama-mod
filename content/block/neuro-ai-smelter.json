@@ -1,0 +1,33 @@
+{
+    "type": "GenericCrafter",
+    "name": "Neuro AI factory",
+    "description": "Create an AI chin for neuro-sama",
+    "size": 1,
+    "requirements": [
+        {"item": "copper", "amount": 20},
+        {"item": "lead", "amount": 20},
+        {"item": "neuro", "amount": 15}
+    ],
+    "hasPower": true,
+    "hasItem": true,
+    "hasLiquids": false,
+    "craftTime": 7,
+    "consumes": {
+        "power": 35,
+        "items": {
+            "items": [
+                {"item": "neuro", "amount": 5},
+                {"item": "silicon", "amount": 10},
+                {"item": "sand", "amount": 8}
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid", "amount": 10
+        }
+    },
+    "updateEffect": "smelt",
+    "category": "crafting",
+    "idleSoundVolume": 0.3,
+    "itemCapacity": 10,
+    "outputItem": {"item": "neuro-chip-ai", "amount": 1}
+}
